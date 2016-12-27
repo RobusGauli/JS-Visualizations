@@ -7,7 +7,7 @@ function Particle(pos){
  this.col = color(random(255), random(255), random(255), random(255))
  
  this.show = function(){
-      
+      noStroke();
       fill(this.col);
       ellipse(this.pos.x, this.pos.y, 10, 10);
       

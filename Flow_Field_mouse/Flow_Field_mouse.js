@@ -11,7 +11,7 @@ var vectors;
 
 
 function setup() {
-  createCanvas(1200, 900, P2D);
+  createCanvas(1500, 900, P2D);
   
   step = 50;
   cols = width/step;
