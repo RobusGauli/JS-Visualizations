@@ -12,7 +12,7 @@ var vectors;
 
 function setup() {
   createCanvas(400, 400, P2D);
-  
+ 
   step = 20;
   cols = width/step;
   rows = height/step;
@@ -26,7 +26,7 @@ function setup() {
 
 function draw() {
   
-  background(255);
+   background(255);
   var yoff = 0;
   zoff += 0.005;
   for (var y = 0; y < rows; y++){

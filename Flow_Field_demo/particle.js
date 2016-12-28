@@ -9,6 +9,9 @@ function Particle(pos){
       
       fill(random(255), random(255), random(255), 255);
       ellipse(this.pos.x, this.pos.y, 5, 5);
+      //stroke(0, 5);
+      //strokeWeight(3);
+      //point(this.pos.x, this.pos.y);
       
    }
    
