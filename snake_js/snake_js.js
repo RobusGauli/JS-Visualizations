@@ -3,7 +3,7 @@ var snake;
 var food;
 function setup() {
   createCanvas(600, 600)
-  frameRate(8);
+  frameRate(15);
   grid = new Grid();
   snake = new Snake();
   food = new Food(grid);
@@ -15,6 +15,7 @@ function draw() {
   snake.show();
   snake.update();
   food.show();
+  snake.eats(food);
   
   
 }
