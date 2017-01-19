@@ -25,7 +25,8 @@ createCanvas(600, 600);
     
   protection += 1;
   if (protection > 10000){
-   break; 
+   break;
+   //just for safety measure
   }
   }
   

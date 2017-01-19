@@ -6,6 +6,8 @@ function Ball(x, y){
  this.g = random(255);
  this.b = random(255);
  
+
+ 
  this.show = function(){
    noStroke();
    fill(this.r, this.g, this.b, 100);
@@ -13,11 +15,7 @@ function Ball(x, y){
   
  }
  
- this.isValid = function(ball){
-  distance = dist(this.x, this.x, ball.x, ball.y);
-  return distance > this.rad + ball.rad;
-   
- }
+
  
  
   
